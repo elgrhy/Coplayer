@@ -12,30 +12,45 @@ struct HomeView: View {
         
         NavigationView {
             ScrollView {
-                Text("Scroll Content1")
-                Text("Scroll Content 2")
-                Text("Scroll Content 3")
+                Rectangle()
+                    .frame(width: 370, height: 300)
+                    .foregroundColor(.accentColor)
+                Rectangle()
+                    .frame(width: 370, height: 300)
+                    .foregroundColor(.indigo)
+                Rectangle()
+                    .frame(width: 370, height: 300)
+                    .foregroundColor(.blue)
+                Rectangle()
+                    .frame(width: 370, height: 300)
+                    .foregroundColor(.red)
                 
             }
             .navigationBarItems(
                 leading: Text("Coplayer")
                     .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(Color.orange),
+                    .foregroundColor(Color.accentColor),
                 trailing:
                     HStack{
                         NavigationLink(destination: {
                         //action
                     }, label: {
-                        Image(systemName: "person.3.fill")
-                            .foregroundColor(.orange)
+                        Image(systemName: "person.3")
                     })
                     NavigationLink(destination: {
                         //action
                     }, label: {
-                        Image(systemName: "heart.fill")
-                            .foregroundColor(.orange)
+                        Image(systemName: "heart")
+                        
                     })
+                        NavigationLink {
+                            //action
+                        } label: {
+                            Image(systemName: "text.justify")
+                            
+                        }
+
                     }
                   
             )

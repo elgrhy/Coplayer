@@ -12,18 +12,7 @@ struct HomeView: View {
         
         NavigationView {
             ScrollView {
-                Rectangle()
-                    .frame(width: 370, height: 300)
-                    .foregroundColor(.accentColor)
-                Rectangle()
-                    .frame(width: 370, height: 300)
-                    .foregroundColor(.indigo)
-                Rectangle()
-                    .frame(width: 370, height: 300)
-                    .foregroundColor(.blue)
-                Rectangle()
-                    .frame(width: 370, height: 300)
-                    .foregroundColor(.red)
+                PostView()
                 
             }
             .navigationBarItems(

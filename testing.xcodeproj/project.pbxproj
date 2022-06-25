@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B54A47C32866DB56005CF9C6 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A47C22866DB56005CF9C6 /* PostView.swift */; };
+		B54A47C528673D89005CF9C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A47C428673D88005CF9C6 /* ProfileView.swift */; };
 		B56D7334285D8CDC000EC5F0 /* testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D7333285D8CDC000EC5F0 /* testingApp.swift */; };
 		B56D7336285D8CDC000EC5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D7335285D8CDC000EC5F0 /* ContentView.swift */; };
 		B56D7338285D8CE3000EC5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56D7337285D8CE3000EC5F0 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B54A47C22866DB56005CF9C6 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		B54A47C428673D88005CF9C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B56D7330285D8CDC000EC5F0 /* Coplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D7333285D8CDC000EC5F0 /* testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingApp.swift; sourceTree = "<group>"; };
 		B56D7335285D8CDC000EC5F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 				B56D7333285D8CDC000EC5F0 /* testingApp.swift */,
 				B56D7335285D8CDC000EC5F0 /* ContentView.swift */,
 				B56D7341285D990D000EC5F0 /* HomeView.swift */,
+				B54A47C22866DB56005CF9C6 /* PostView.swift */,
+				B54A47C428673D88005CF9C6 /* ProfileView.swift */,
 				B56D7337285D8CE3000EC5F0 /* Assets.xcassets */,
 				B56D7339285D8CE3000EC5F0 /* Preview Content */,
 			);
@@ -142,6 +148,8 @@
 			files = (
 				B56D7342285D990D000EC5F0 /* HomeView.swift in Sources */,
 				B56D7336285D8CDC000EC5F0 /* ContentView.swift in Sources */,
+				B54A47C528673D89005CF9C6 /* ProfileView.swift in Sources */,
+				B54A47C32866DB56005CF9C6 /* PostView.swift in Sources */,
 				B56D7334285D8CDC000EC5F0 /* testingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
